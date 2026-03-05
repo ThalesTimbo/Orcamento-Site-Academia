@@ -532,6 +532,39 @@ body {
     filter: brightness(1.03);
 }
 
+/* Rodapé / Créditos */
+footer.section#creditos {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg);
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+}
+
+footer.section#creditos .section-header {
+    text-align: center;
+}
+
+footer.section#creditos .section-description {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer.section#creditos .cards-grid {
+    margin-top: var(--spacing-sm);
+}
+
+footer.section#creditos .card {
+    text-align: center;
+}
+
+footer.section#creditos .info-icon {
+    margin: 0 auto 0.25rem;
+}
+
 /* Responsividade */
 @media (max-width: 900px) {
     .cards-grid {
